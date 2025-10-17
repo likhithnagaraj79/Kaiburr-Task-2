@@ -1,0 +1,7 @@
+com/kaiburr/taskapi/service/TaskService.class
+com/kaiburr/taskapi/util/CommandValidator.class
+com/kaiburr/taskapi/model/Task.class
+com/kaiburr/taskapi/controller/TaskController.class
+com/kaiburr/taskapi/model/TaskExecution.class
+com/kaiburr/taskapi/TaskApiApplication.class
+com/kaiburr/taskapi/repository/TaskRepository.class

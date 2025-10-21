@@ -2,16 +2,28 @@ Task Execution Manager - Kubernetes Deployment (Task 2)
 
 # Table of Contents:
 
-        Overview
-        Architecture(Image)
-        Key Features
-        Prerequisites
-        Project Structure
-        Setup & Deployment
-        Kubernetes Resources
-        Testing & Verification
-        API Testing with Postman
-        Learning Outcomes
+* [Overview](#overview)
+* [Architecture](#architecture)
+* [Key Features](#key-features)
+    * [Container & Orchestration](#container--orchestration)
+    * [Execution Model](#execution-model)
+    * [Storage & Persistence](#storage--persistence)
+    * [Security](#security)
+    * [Configuration](#configuration)
+* [Prerequisites](#prerequisites)
+* [Project Structure](#project-structure)
+* [Setup & Deployment Phases](#setup--deployment-phases)
+    * [Phase 1: Setup & Verify Kubernetes](#phase-1)
+    * [Phase 2: Create Docker Files](#phase-2-create-docker-files-2-new-files)
+    * [Phase 3: Create Kubernetes YAML Files](#phase-3-create-kubernetes-directory-and-yaml-files-7-files)
+    * [Phase 4: Build Docker Image](#phase-4-build-docker-image)
+    * [Phase 5: Deploy to Kubernetes](#phase-5)
+* [Verification & Testing](#verification--testing)
+    * [Phase 6: Verify Deployment](#phase-6-verify-deployment)
+    * [Phase 7: Test the Application](#phase-7-test-the-application)
+        * [Part 1: Kubectl Terminal Screenshots (Tests 1-8)](#part-1-kubectl-terminal-screenshots-8-required)
+        * [Part 2: Postman API Testing (Tests 9-15)](#part-2-postman-api-testing-screenshots-5-required)
+* [Learning Outcomes](#learning-outcomes)
 
 ---
 
